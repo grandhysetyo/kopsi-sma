@@ -17,6 +17,9 @@ import SwiperCore, {
 import SectionIntro from "../components/SectionIntro";
 import SectionBidang from "../components/SectionBidang";
 import SectionPedomanInfo from "../components/SectionPedomanInfo";
+import SectionTeaser from "../components/SectionTeaser";
+import SectionTimeline from "../components/SectionTimeline";
+import SectionFooter from "../components/SectionFooter";
 
 // install Swiper modules
 SwiperCore.use([Mousewheel,Pagination]);
@@ -39,8 +42,15 @@ const Beranda =  () => {
             <SwiperSlide>
                 <SectionPedomanInfo />
             </SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>        
+            <SwiperSlide>
+                <SectionTeaser />
+            </SwiperSlide>
+            <SwiperSlide>
+                <SectionTimeline />    
+            </SwiperSlide>  
+            <SwiperSlide>
+                <SectionFooter />    
+            </SwiperSlide>       
     </Swiper>
     </>
   );
