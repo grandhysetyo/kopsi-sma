@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -9,8 +10,8 @@ const SectionIntro = () => {
                 <div className="row h-100">
                     <div className="col-lg-6 align-self-center">
                         <h1>SELAMAT DATANG DI <br/> DUNIA PENELITIAN REMAJA</h1>
-                        <a href="/" className="btn-masuk"> Masuk </a>
-                        <a href="/" className="btn-daftar"> Daftar</a>
+                        <Link to="/login" className="btn-masuk"> Masuk </Link>
+                        <Link to="/login" className="btn-daftar"> Daftar</Link>
                     </div>
                     <div className="col-lg-6 align-self-center"> 
                         <img src="/assets/images/hero-intro.png" className="hero" alt="" /> 

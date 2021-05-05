@@ -1,5 +1,4 @@
-
-import React from "react";
+import React, { Component } from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -24,36 +23,36 @@ import SectionFooter from "../components/SectionFooter";
 // install Swiper modules
 SwiperCore.use([Mousewheel,Pagination]);
 
-const Beranda =  () => {
-  return (
-    <>    
-    <Swiper 
-        direction={'vertical'} 
-        slidesPerView={1} 
-        spaceBetween={30} 
-        mousewheel={true} 
-        pagination={{"clickable": true}} className="mySwiper">
-            <SwiperSlide>
-                <SectionIntro />
-            </SwiperSlide>
-            <SwiperSlide>
-                <SectionBidang />
-            </SwiperSlide>
-            <SwiperSlide>
-                <SectionPedomanInfo />
-            </SwiperSlide>
-            <SwiperSlide>
-                <SectionTeaser />
-            </SwiperSlide>
-            <SwiperSlide>
-                <SectionTimeline />    
-            </SwiperSlide>  
-            <SwiperSlide>
-                <SectionFooter />    
-            </SwiperSlide>       
-    </Swiper>
-    </>
-  );
-};
-
-export default Beranda
+export default class Beranda extends Component {
+    render() {
+        return (
+            <>    
+            <Swiper 
+                direction={'vertical'} 
+                slidesPerView={1} 
+                spaceBetween={30} 
+                mousewheel={true} 
+                pagination={{"clickable": true}} className="mySwiper">
+                    <SwiperSlide>
+                        <SectionIntro />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <SectionBidang />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <SectionPedomanInfo />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <SectionTeaser />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <SectionTimeline />    
+                    </SwiperSlide>  
+                    <SwiperSlide>
+                        <SectionFooter />    
+                    </SwiperSlide>       
+            </Swiper>
+            </>
+        )
+    }
+}

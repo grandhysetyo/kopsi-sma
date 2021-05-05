@@ -12,15 +12,15 @@ const SectionFooter = () => {
                         <div className="col-lg-6 mx-auto text-center">
                             <img src="/assets/images/logo-puspresnas.png" alt="" className="logo" />
                         </div> 
-                        <div className="col-lg-6 mx-auto">
+                        <div className="col-lg-6 mx-auto text-center">
                             <a href="/" className="fb-tw">
-                                <i class="fab fa-facebook-square"></i> <i class="fab fa-twitter"></i> Puspresnas
+                                <i className="fab fa-facebook-square"></i> <i className="fab fa-twitter"></i> Puspresnas
                             </a>
                             <a href="/" className="yt">
-                                <i class="fab fa-youtube"></i> Pusat Prestasi Nasional
+                                <i className="fab fa-youtube"></i> Pusat Prestasi Nasional
                             </a>
                             <a href="/" className="yt">
-                                <i class="fab fa-instagram"></i> @Puspresnas
+                                <i className="fab fa-instagram"></i> @Puspresnas
                             </a>
                         </div>                                                             
                     </div>                                       
