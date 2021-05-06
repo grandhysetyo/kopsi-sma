@@ -15,10 +15,10 @@ export default class Login extends Component {
                                         
                                     </div>
                                     <div className="form-group">
-                                        <label htmlFor="exampleInputPassword1">Password</label>
-                                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                        <label htmlFor="exampleInputPassword1">Kata Sandi (Password)</label>
+                                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Kata Sandi" />
                                     </div>                                    
-                                    <button type="submit" className="btn-me btn-masuk">Submit</button>
+                                    <button type="submit" className="btn-me btn-masuk">Masuk</button>
                                     <span className="text-muted">Belum memiliki akun?</span>
                                     <a href="/daftar" className="btn-me btn-daftar">Daftar</a>
                                 </form>

@@ -40,7 +40,13 @@ section {
   -webkit-align-items: center;
   align-items: center;
 }
-
+.swiper-pagination-bullet{
+    opacity: .8 !important;
+    background: #fff !important;    
+}
+.swiper-pagination-bullet-active{
+    background: rgb(24, 78, 150) !important;
+}
 /* .swiper-slide img {
   display: block;
   width: 100%;
@@ -99,6 +105,12 @@ section {
     color: #1277BD;
     margin-bottom: 50px;
     text-shadow: 0px 2px #444444;
+    text-align: center;
+}
+.title-section3{
+    color: #A96411;
+    margin-bottom: 50px;
+    text-shadow: 0px 2px #4444441a;
     text-align: center;
 }
 .link-white{
