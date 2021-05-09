@@ -30,10 +30,20 @@ const SectionTimeline = () => {
                         <div className="row">
                             <div className="col-lg-12 ">                                                         
                                 <Swiper 
-                                    slidesPerView={'4'}
+                                    slidesPerView={'1'}
                                     centeredSlides={false} 
                                     grabCursor={true} 
                                     pagination={{"clickable": true}} 
+                                    breakpoints={{
+                                        "640": {
+                                          "slidesPerView": 1,                                          
+                                        },
+                                        "768": {
+                                          "slidesPerView": 2,                                      
+                                        },
+                                        "1024": {
+                                          "slidesPerView": 4,                                          
+                                        }}}
                                     className="tl">
                                     
                                     <SwiperSlide>
