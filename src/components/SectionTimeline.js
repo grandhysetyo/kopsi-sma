@@ -34,15 +34,7 @@ const SectionTimeline = () => {
                                     centeredSlides={false} 
                                     grabCursor={true} 
                                     pagination={{"clickable": true}} 
-                                    breakpoints={{
-                                        "640": {
-                                          "slidesPerView": 1,                                          
-                                        },
-                                        "768": {
-                                          "slidesPerView": 1,                                          
-                                        }
-                                        
-                                    }} className="tl">
+                                    className="tl">
                                     
                                     <SwiperSlide>
                                         <div className="tl-up">

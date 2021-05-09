@@ -344,7 +344,7 @@ section {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding-top: 12%;
+    padding-top: 15%;
 }
 .form-login {
     background-color: #F2F2F2;
@@ -366,117 +366,6 @@ section {
     margin: 18px 0;
 }
 
-/* BIDANG DETAIL */
-.bidang-detail{
-    background-image: url('/assets/images/bg-section6.png');    
-    
-    background-position: center;
-    padding-top: 12%;
-    background-repeat: repeat-y;
-}
-.card-bidang{
-    margin-bottom: 4%;
-}
-.card-bidang img{
-    width: 100%;
-    position: absolute;
-    z-index: 0;          
-}
-.card-bidang.mst-b .text{
-    position: sticky;    
-    z-index: 1;
-    padding: 15% 50% 10% 15%;
-}
-.card-bidang.ftr-b .text{
-    position: sticky;    
-    z-index: 1;
-    padding: 15% 10% 10% 50%;
-}
-.card-bidang.ish-b .text{
-    position: sticky;    
-    z-index: 1;
-    padding: 15% 50% 10% 15%;
-}
-.text p{
-    color:#444444;
-    font-size: 14px;
-}
-
-.mst-b .text h5{
-    color:#C78B1F;
-}
-.ftr-b .text h5{
-    color:#961166;
-}
-.ish-b .text h5{
-    color:#1277BD;
-}
-
-.medali{
-    width: 100%;
-    text-align: center;
-    height: 280px;   
-}
-.medali img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items:center;
-}
-.medali h4{
-    position: absolute;
-    bottom: 0;
-    width: 88%;
-}
-.gold img{
-    width: 85%;
-}
-.gold h4{
-    color: #FFD144;
-}
-.silver img{
-    width: 75%;
-}
-.silver h4{
-    color: #1B75BB;
-}
-.bronze img{
-    width: 70%;
-}
-.bronze h4{
-    color: #C74A7E;
-}
-.etc img{
-    width: 60%;
-}
-.etc h4{
-    color: #C78B1F;
-}
-
-.footer2{
-    padding-top: 50px;
-    background: rgb(43,183,226);
-    background: linear-gradient(90deg, rgba(43,183,226,1) 0%, rgba(27,117,187,1) 100%); 
-}
-
-.sosmed{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-.sosmed a{
-    width: 38px;
-    height: 38px;   
-    border: 1px #fff solid;
-    margin: 5px;
-    padding: 6px 11px;
-    color: #fff;
-    border-radius: 50%;
-}
-.sosmed a:hover{
-    color: #fff;
-    text-decoration: none;
-}
 
 
 
@@ -539,6 +428,10 @@ section {
         margin-right: auto;
         width: 100%; 
         height: 250px;
+    }
+    /* BIDANG DETAIL */
+    .bidang-detail{
+        padding-top: 28%;
     }
 } 
 
