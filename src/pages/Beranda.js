@@ -29,8 +29,7 @@ export default class Beranda extends Component {
             <>    
             <Swiper 
                 direction={'vertical'} 
-                slidesPerView={1} 
-                spaceBetween={30} 
+                slidesPerView={1}                 
                 mousewheel={true} 
                 pagination={{"clickable": true}} className="mySwiper">
                     <SwiperSlide>
